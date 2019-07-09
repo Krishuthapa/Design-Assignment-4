@@ -1507,7 +1507,7 @@ ul{
 @media screen and (min-width:1024px){
     
     .page{
-        max-width:100em;
+        width:100em;
     }
 
     .left-drop span{
