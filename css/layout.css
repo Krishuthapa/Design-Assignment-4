@@ -712,7 +712,7 @@ ul{
 
     .register ul li{
         list-style:none;
-        float:left;
+        float:right;
         margin-left:20px;
     }
 
@@ -736,7 +736,7 @@ ul{
     } 
 
     .register ul li:first-child{
-        margin-left:30px;
+        margin-left:15px;
     }
 
     .cart{
@@ -802,7 +802,7 @@ ul{
     .upper-list ul li{
         position:relative;
         list-style:none;
-        float:left;
+        float:right;
         margin-right:5px;
         font-family:'Montserrat';
         font-size:8px;
@@ -1083,7 +1083,7 @@ ul{
 
     .register ul li{
         list-style:none;
-        float:left;
+        float:right;
         margin-left:20px;
     }
 
@@ -1099,7 +1099,7 @@ ul{
     } 
 
     .register ul li:first-child{
-        margin-left:30px;
+        margin-left:15px;
     }
 
     .cart{
@@ -1158,6 +1158,10 @@ ul{
         width:45%;
         margin-top:30px;
         margin-left:25px;
+    }
+
+    .upper-list ul li{
+        float:right;
     }
 
     .upper-list ul li.mens,.womens{
@@ -1530,7 +1534,8 @@ ul{
 
 @media screen and (min-width:1024px){
     
-    .page{
+    .page
+    {
         max-width:100em;
     }
 
@@ -1555,6 +1560,7 @@ ul{
 
     .register ul li{
         margin-left:20px;
+        float:right;
         
     }
 
@@ -1564,7 +1570,7 @@ ul{
 
 
     .register ul li:first-child{
-        margin-left:140px;
+        margin-left:40px;
     }
 
 
@@ -1587,14 +1593,15 @@ ul{
     }
 
     .upper-list{
-        width:30%;
+        width:45%;
         margin-top:30px;
-        margin-left:340px;
+        
         
     }
 
     .upper-list ul li{
         font-size:11px;
+        float:right;
         margin-left:10px;
     }
 
