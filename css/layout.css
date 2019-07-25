@@ -896,6 +896,7 @@ ul{
 
     .pop-up{
         display:none;
+	 box-shadow:1px 1px lightgray;
     }
 
     .upper-list ul li p{
