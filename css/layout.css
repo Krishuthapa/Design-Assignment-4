@@ -896,7 +896,7 @@ ul{
 
     .pop-up{
         display:none;
-	 box-shadow:1px 1px lightgray;
+        box-shadow:1px 1px lightgray;
     }
 
     .upper-list ul li p{
@@ -1480,7 +1480,7 @@ ul{
     }
 
     .body-image{
-        max-width:22.5%;
+        width:23%;
         position:relative;
         margin-right:10px;
         margin-bottom:12px;
@@ -1511,7 +1511,7 @@ ul{
 
     .body-card.jane
     {
-        width:47.6%;
+        width:47.5%;
         
     }
 
@@ -1744,6 +1744,10 @@ ul{
         display:block;
     }
 
+    .body-image{
+        width:22.5%;
+    }
+
   
     .body-card.jane  
     {
@@ -1923,7 +1927,7 @@ ul{
     }
 
     .body-card.win{
-        max-width:69.8%;
+        width:69.8%;
         margin-left:35px;
         position:relative;
     }
@@ -1958,7 +1962,7 @@ ul{
 
 
     .body-card.jane{
-        max-width:46%;
+        width:46%;
         
     }
 
@@ -1989,4 +1993,19 @@ ul{
 
 }
 
+@media screen and (min-width:1500px)
+{
+    .body-image
+    {
+        width:23.5%;
+        margin-right:10px;
+    }
 
+    .body-card.jane{
+        width:47.5%
+    }
+
+    .body-card.win{
+        width:72%
+    }
+}
